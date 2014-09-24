@@ -1,0 +1,206 @@
+/* 
+    Created on : 20-sep-2014, 1:05:37
+    Author     : Pedro Gabriel Manrique Gutiérrez <pedrogmanrique at gmail.com>
+*/
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background: #006699;
+}
+textarea{
+    resize: none;
+    height:200px;
+}
+div.bordito{
+    width:100%;
+    float:left;
+    height:10px;
+    background: #0099ff;
+    border-bottom: 5px solid #fff;
+}
+
+header, #main{
+    max-width:800px;
+    min-width:480px;    
+}
+
+h1{
+    font-size:39px;
+}
+h2{
+    font-size:30px;
+}
+h3{
+    font-size:18px;
+}
+.titulo{
+    color:#fff;
+    padding:10px;
+    display:block;
+}
+.titular{
+    color:brown;
+    font-size:26px;
+    padding:5px 0;
+    border-bottom: 5px solid yellowgreen;
+}
+.parrafo{
+    padding:10px 0 0 0;
+    color:black;
+    font-size:15px;
+    line-height: 150%;
+    font-family: times;
+}
+.pie_articulo{
+    border-top:1px solid antiquewhite;
+    border-bottom:1px solid antiquewhite;
+    padding:5px 0;
+    margin:10px 0 20px 0;
+    width:775px;
+    display:block;
+    color:#0099cc;
+}
+footer{
+    float:left;
+    padding:10px;
+    color:beige;
+}
+header{
+    background: #069;
+    float:left;
+    width:800px;
+    height: 100px;
+}
+nav{
+    width:100%;
+    float:left;
+}
+
+ul.menu{
+    list-style: none;
+    float:right;
+    background: white;
+    padding:0 5px 5px;
+    border-radius:0 0 14px 14px;
+    margin-top:-5px;
+}
+
+ul.menu > li a{
+    color:#fff;
+    font-weight: bold;
+}
+ul.menu > li{
+    float:left;
+    padding:15px 15px;
+    background: #0099ff; color:#fff;
+    display: block;
+}
+ul.menu > li.actual a{
+    border-radius: 5px;
+    padding:5px 8px;
+    background: linear-gradient(#ff0, #f60);
+}
+
+ul.menu > li.der,
+ul.menu > li.izq{
+    display: block;
+    height: 36px; width:10px;    
+    padding:5px 0px;
+}
+ul.menu > li.der{
+    border-radius: 0 0 10px 0;
+}
+ul.menu > li.izq{
+    border-radius: 0 0 0 10px ;
+}
+
+#main{
+    position:relative;
+    margin: 0 auto;
+}
+
+#contenido{
+    float:left;
+    width:780px;
+    min-height: 500px;
+    background: beige;
+    margin:10px 0 0 0;
+    padding:10px;
+    border:5px solid white;
+}
+.etiqueta{
+    margin:10px 0 0 0;
+    display: block;
+    color:#0099cc;
+    font-weight: bold;
+    font-size:18px;
+}
+/*
+    Botones
+*/
+.botonera{
+    display:block;
+    padding: 3px;
+    width:775px;
+    float:left;
+    min-height: 60px;
+    margin-bottom: 30px;
+}
+#form1{
+    float:left;
+}
+.agrupa{
+    float:left;
+    display:block;
+    width: 80px;height:70px;
+}
+.itext{
+    padding:5px;
+    width: 300px;
+    margin:10px 0;
+    display: block;
+}
+input[type="file"]{
+    opacity:0;
+    width: 75px; height: 50px;
+    position: absolute; z-index: 20;
+    cursor: pointer;
+}
+
+.boton{
+    padding:18px;
+    position:absolute;
+    z-index: 10;
+    border:1px solid #fff; border-radius: 10px;
+    color:#fff;
+}
+
+.btn{
+    border-radius: 5px;
+    padding:16px 8px;
+    margin:5px 0;
+    float:left;
+    color:#fff;
+    border:0;
+}
+.naranja{
+    background: #f60;
+}
+.naranjav{
+    background: linear-gradient(#ff0, #f60);
+}
+.azul{
+    background: #09f;
+}
+.azulv{
+    background: linear-gradient(#66ccff, #0099cc);
+}
+

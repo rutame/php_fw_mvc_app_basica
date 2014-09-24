@@ -1,0 +1,17 @@
+
+<h3>Estamos en los posts</h3>
+<div class="botonera">
+<a href="<?php BASE_URL ;?>post/nuevo" class="btn azul">Añadir Nuevo</a>
+</div>
+<?php 
+$articulos = $this->posts;
+
+foreach($articulos as $articulo):
+
+    echo "<h4 class='titular'>". $articulo['titulo'] ."</h4>";
+    echo "<div class='parrafo'>" . $articulo['cuerpo'] ."</div>";
+    echo "<div class='pie_articulo'>Publicado el ". $articulo['fechaPub'] ."</div>";
+
+endforeach;
+?>
+

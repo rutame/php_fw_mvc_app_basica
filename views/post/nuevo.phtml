@@ -1,0 +1,17 @@
+
+<form action="<?php echo BASE_URL;?>post/nuevo" method="post" id="form1">
+    
+    <div class="botonera">
+    <input type="file" name="imagen" class="">
+    <div class="boton azul">Imagen</div>
+    </div>
+    
+    <div class="botonera">
+    <label for="Titulo" class="etiqueta">Título</label>
+    <input type="text" name="titulo" placeholder="Introduce el título" class="itext">
+    </div>
+    
+    <label for="Cuerpo del post" class="etiqueta">Cuerpo del post</label>
+    <textarea name="cuerpo" class="botonera"></textarea>
+    <input type="submit" name="accion" value="Guardar" class="btn azul">
+</form>
